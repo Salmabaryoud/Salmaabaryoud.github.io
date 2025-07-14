@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salma's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Salma</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Salma</span></h1>
+                    <p class="hero-subtitle">Creative Full Stack Developer </p>
+                    <p class="hero-description">
+                        I create beautiful digital experiences that inspire and delight. 
+                        Passionate about clean code, elegant design, and meaningful user experiences.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="ex1.jpg.jpeg">
+                        </div>
+                        <div class="profile-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate about creating digital magic ✨</h3>
+                    <p>
+                        I'm a creative developer  with a love for beautiful, functional websites. 
+                        With  full love of web development, I specialize in creating responsive, 
+                        user-friendly interfaces that not only look stunning but also provide exceptional user experiences.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new design trends, experimenting with 
+                        new technologies, or enjoying a good cup of coffee while brainstorming new project ideas.
+                    </p>
+                    <div class="skills">
+                        <h4>My Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Php</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">word</span>
+                            <span class="skill-tag">excel</span>
+                            <span class="skill-tag">powerpoint</span>
+                            <span class="skill-tag">mysql</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Portfolio</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="E-commerce Website">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>A modern e-commerce website with seamless user experience and beautiful design.</p>
+                            <div class="portfolio-tags">
+                                <span>html</span>
+                                <span>css</span>
+                                <span>javascript</span>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <a href="https://github.com/Salmabaryoud/E-commerce-Platform" class="btn btn-primary">Code</a>
+                                <a href="#" class="btn btn-secondary">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80" alt="Restaurant Website">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Restaurant Website</h3>
+                            <p>Elegant restaurant website with online ordering system and beautiful imagery.</p>
+                            <div class="portfolio-tags">
+                                <span>HTML</span>
+                                <span>JavaScript</span>
+                                <span>css</span>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <a href="https://github.com/Salmabaryoud/Restaurant-Website" class="btn btn-primary">Code</a>
+                                <a href="#" class="btn btn-secondary">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80" alt="Game Project">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Pygame Project</h3>
+                            <p>A simple 2D game made with pygame its a jump game jump high and avoid the obstacles .</p>
+                            <div class="portfolio-tags">
+                                <span>python</span>
+                                <span>pygame</span>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <a href="#" class="btn btn-primary">Code</a>
+                                <a href="#" class="btn btn-secondary">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1588776814546-ec7e93716c6a?auto=format&fit=crop&w=800&q=80" alt="Calculator">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Calculator project</h3>
+                            <p>A simple calculator made with tkinter</p>
+                            <div class="portfolio-tags">
+                                <span>python</span>
+                                <span>tkinter</span>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <a href="#" class="btn btn-primary">Code</a>
+                                <a href="#" class="btn btn-secondary">Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together! 💫</h3>
+                    <p>
+                        I'm always excited to hear about new projects and opportunities. 
+                        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>salmaabaryoud@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+212 772969749</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>lot laymoun , casablanca</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Salma</h3>
+                    <p>Creating beautiful digital experiences that inspire and delight.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Salmabaryoud" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Salma. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
